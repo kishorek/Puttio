@@ -30,11 +30,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     [ORMigration migrate];
-    [ARAnalytics  setupWithAnalytics:@{
+    /*[ARAnalytics  setupWithAnalytics:@{
         ARTestFlightAppToken : TESTFLIGHT_SECRET,
         ARMixpanelToken: MIXPANEL_TOKEN,
         ARCrashlyticsAPIKey: CRASHLYTICS_API_KEY
-     }];
+     }];*/
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults removeObjectForKey:ORLoggedOutDefault];
@@ -51,8 +51,8 @@
 }
 
 - (void)showApp {
-    [ARAnalytics identifyUserwithID:[[NSUserDefaults standardUserDefaults] objectForKey:ORUserAccountNameDefault] andEmailAddress:nil];
-    [ARAnalytics incrementUserProperty:@"User App Launched" byInt:1];
+    //[ARAnalytics identifyUserwithID:[[NSUserDefaults standardUserDefaults] objectForKey:ORUserAccountNameDefault] andEmailAddress:nil];
+    //[ARAnalytics incrementUserProperty:@"User App Launched" byInt:1];
 
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:[NSBundle mainBundle]];
     SearchViewController *searchVC = [storyboard instantiateViewControllerWithIdentifier:@"searchView"];
@@ -98,7 +98,7 @@
     [defaults setDouble:currentMinutes forKey:ORTotalVideoDuration];
     [defaults synchronize];
 
-    [ARAnalytics incrementUserProperty:@"RevisedTotalTimeWatched" byInt:extraMinutesNumber.integerValue];
+    //[ARAnalytics incrementUserProperty:@"RevisedTotalTimeWatched" byInt:extraMinutesNumber.integerValue];
 
     if (currentMinutes > (5 * 60) && ![defaults boolForKey:ORHasShownReviewNagOneDefault]) {
         [ModalZoomView fadeOutViewAnimated:NO];
@@ -129,7 +129,7 @@
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-            [ARAnalytics event:@"Save CD Context Error" withProperties:@{@"error": @(error.code)}];
+            //[ARAnalytics event:@"Save CD Context Error" withProperties:@{@"error": @(error.code)}];
         }
     }
 }
