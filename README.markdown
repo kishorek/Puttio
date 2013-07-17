@@ -1,3 +1,9 @@
+----
+___KishoreK's update:
+Made no changes except to make it easily compilable(Removed ARAnalytics etc). Always refer to the main repository.___
+
+----
+
 Puttio. A nice experience for Put.io on iPad.
 ----
 
