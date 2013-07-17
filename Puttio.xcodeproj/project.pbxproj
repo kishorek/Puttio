@@ -23,11 +23,9 @@
 		600249D7166C5156007E6E9A /* TransferError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 600249D3166C5156007E6E9A /* TransferError@2x.png */; };
 		6003E35016B46A48008A675B /* CloseSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6003E34E16B46A48008A675B /* CloseSearch.png */; };
 		6003E35116B46A48008A675B /* CloseSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6003E34F16B46A48008A675B /* CloseSearch@2x.png */; };
-		6004B9EF1784B19A00B53F0B /* pug_dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6004B9EE1784B19A00B53F0B /* pug_dog.jpg */; };
 		600641FB151F24AF00EF85F9 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600641FA151F24AF00EF85F9 /* StatusViewController.m */; };
 		600641FF151F24C100EF85F9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600641FE151F24C100EF85F9 /* SearchViewController.m */; };
 		60064202151F24CD00EF85F9 /* BrowsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60064201151F24CD00EF85F9 /* BrowsingViewController.m */; };
-		6017DCEB177F0BC900F5FF6C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6017DCEA177F0BC900F5FF6C /* Crashlytics.framework */; };
 		60199B271673FD490026762E /* ORRemoveTransferPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60199B261673FD490026762E /* ORRemoveTransferPopoverViewController.m */; };
 		6020361B15AA2C120021CE21 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6020361215AA2C120021CE21 /* DCRoundSwitch.m */; };
 		6020361C15AA2C120021CE21 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6020361415AA2C120021CE21 /* DCRoundSwitchKnobLayer.m */; };
@@ -241,7 +239,6 @@
 		600249D3166C5156007E6E9A /* TransferError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TransferError@2x.png"; sourceTree = "<group>"; };
 		6003E34E16B46A48008A675B /* CloseSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSearch.png; sourceTree = "<group>"; };
 		6003E34F16B46A48008A675B /* CloseSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseSearch@2x.png"; sourceTree = "<group>"; };
-		6004B9EE1784B19A00B53F0B /* pug_dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug_dog.jpg; sourceTree = "<group>"; };
 		600641F9151F24AF00EF85F9 /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusViewController.h; path = ViewControllers/StatusViewController.h; sourceTree = "<group>"; };
 		600641FA151F24AF00EF85F9 /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusViewController.m; path = ViewControllers/StatusViewController.m; sourceTree = "<group>"; };
 		600641FD151F24C100EF85F9 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ViewControllers/SearchViewController.h; sourceTree = "<group>"; };
@@ -391,7 +388,6 @@
 		6098B4F71635612500B41531 /* ORFileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORFileDownloadOperation.m; sourceTree = "<group>"; };
 		6098B4FA163561EC00B41531 /* NSFileManager+SkipBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+SkipBackup.h"; sourceTree = "<group>"; };
 		6098B4FB163561EC00B41531 /* NSFileManager+SkipBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+SkipBackup.m"; sourceTree = "<group>"; };
-		609CAE2115851B64000BE57E /* Putio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Putio.entitlements; path = puttio/Putio.entitlements; sourceTree = "<group>"; };
 		609CAE2215853D51000BE57E /* UnknownFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownFileController.h; path = FileController/UnknownFileController.h; sourceTree = "<group>"; };
 		609CAE2315853D51000BE57E /* UnknownFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownFileController.m; path = FileController/UnknownFileController.m; sourceTree = "<group>"; };
 		609CAE2615856309000BE57E /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
@@ -426,8 +422,7 @@
 		60A34F7615CB384700983442 /* Paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paper@2x.png"; sourceTree = "<group>"; };
 		60A7A6B3151F6E0D00DB71E0 /* ORSimpleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSimpleProgress.h; path = Views/ORSimpleProgress.h; sourceTree = "<group>"; };
 		60A7A6B4151F6E0D00DB71E0 /* ORSimpleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSimpleProgress.m; path = Views/ORSimpleProgress.m; sourceTree = "<group>"; };
-		60A7A6C3151FBA1D00DB71E0 /* APP_SECRET.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APP_SECRET.h; path = ../APP_SECRET.h; sourceTree = "<group>"; };
-		60A7A6CB151FC1CF00DB71E0 /* APP_SECRET_EX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APP_SECRET_EX.h; path = ../APP_SECRET_EX.h; sourceTree = "<group>"; };
+		60A7A6CB151FC1CF00DB71E0 /* APP_SECRET.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APP_SECRET.h; path = ../APP_SECRET.h; sourceTree = "<group>"; };
 		60A7A6CE151FD2A100DB71E0 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File.h; path = Models/File.h; sourceTree = SOURCE_ROOT; };
 		60A7A6CF151FD2A100DB71E0 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = File.m; path = Models/File.m; sourceTree = SOURCE_ROOT; };
 		60A7A6D2151FD34700DB71E0 /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
@@ -555,7 +550,6 @@
 				6085D22A151B99490068929C /* Foundation.framework in Frameworks */,
 				6085D22C151B99490068929C /* CoreGraphics.framework in Frameworks */,
 				6085D22E151B99490068929C /* CoreData.framework in Frameworks */,
-				6017DCEB177F0BC900F5FF6C /* Crashlytics.framework in Frameworks */,
 				E62B9428CFD24446BDF07E11 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,7 +695,6 @@
 		606C79A5152F5AA600608C56 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6004B9EE1784B19A00B53F0B /* pug_dog.jpg */,
 				6003E34E16B46A48008A675B /* CloseSearch.png */,
 				6003E34F16B46A48008A675B /* CloseSearch@2x.png */,
 				602BC08A168F64C700069FDB /* Flags */,
@@ -765,7 +758,6 @@
 				60973FEE16050AC900867A2D /* Default-568h@2x.png */,
 				60F6F83115D072BC004333AF /* icon114.png */,
 				60F6F82F15D072A2004333AF /* icon57.png */,
-				609CAE2115851B64000BE57E /* Putio.entitlements */,
 				6085D22F151B99490068929C /* Puttio */,
 				6085D226151B99490068929C /* Frameworks */,
 				6085D224151B99490068929C /* Products */,
@@ -803,8 +795,7 @@
 			children = (
 				60F023871528AB5F003491E4 /* icon144.png */,
 				60F023851528AB55003491E4 /* icon72.png */,
-				60A7A6CB151FC1CF00DB71E0 /* APP_SECRET_EX.h */,
-				60A7A6C3151FBA1D00DB71E0 /* APP_SECRET.h */,
+				60A7A6CB151FC1CF00DB71E0 /* APP_SECRET.h */,
 				6085D238151B99490068929C /* ORAppDelegate.h */,
 				6085D239151B99490068929C /* ORAppDelegate.m */,
 				6085D23B151B99490068929C /* MainStoryboard.storyboard */,
@@ -1211,7 +1202,6 @@
 				602BC0A6168F64D500069FDB /* Romania@2x.png in Resources */,
 				602BC0A7168F64D500069FDB /* Russian@2x.png in Resources */,
 				602BC0A8168F64D500069FDB /* Spain@2x.png in Resources */,
-				6004B9EF1784B19A00B53F0B /* pug_dog.jpg in Resources */,
 				602BC0A9168F64D500069FDB /* Turkey@2x.png in Resources */,
 				602BC0AA168F64D500069FDB /* Ukeranian@2x.png in Resources */,
 				602BC0AD168FAE0300069FDB /* CCNext.png in Resources */,
@@ -1237,7 +1227,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./vendor/Crashlytics.framework/run c40913dff6423ffeca4e4bafc8b63131a7f90415";
+			shellScript = "";
 		};
 		8A9EE433B75345ABA3BD0631 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1458,39 +1448,7 @@
 			baseConfigurationReference = 74E1B77143854D109D5532D4 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = puttio/Putio.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Maslen";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Puttio/Puttio-Prefix.pch";
-				INFOPLIST_FILE = "Puttio/Puttio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Puttio/Externals\"",
-					"\"$(SRCROOT)/Puttio\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA6FDC71-9089-4C00-8A6A-2F79AC8E76CF";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/vendor/**";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6085D24B151B99490068929C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74E1B77143854D109D5532D4 /* Pods.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = puttio/Putio.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Maslen";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1507,8 +1465,38 @@
 					"\"$(SRCROOT)/Puttio\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DA6FDC71-9089-4C00-8A6A-2F79AC8E76CF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA6FDC71-9089-4C00-8A6A-2F79AC8E76CF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/vendor/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6085D24B151B99490068929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E1B77143854D109D5532D4 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puttio/Puttio-Prefix.pch";
+				INFOPLIST_FILE = "Puttio/Puttio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Puttio/Externals\"",
+					"\"$(SRCROOT)/Puttio\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/vendor/**";
 				WRAPPER_EXTENSION = app;
