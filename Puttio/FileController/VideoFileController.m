@@ -289,7 +289,7 @@
                         _addedProcess = YES;
                         
                     } failure:^(NSError *error) {
-                        ARLog(@"Error requesting MP4Status");
+                        NSLog(@"Error requesting MP4Status");
                     }];
                 }
                 self.infoController.additionalInfoLabel.text = [NSString stringWithFormat:@"Requesting an %@ version.", [UIDevice deviceString]];

@@ -51,13 +51,13 @@
     if ([self.item isMemberOfClass:[LocalFile class]]) {
         LocalFile *file = (LocalFile *)self.item;
         [file deleteItem];
-        [ARAnalytics incrementUserProperty:@"User Deleted LocalFile" byInt:1];
+       //[ARAnalytics incrementUserProperty:@"User Deleted LocalFile" byInt:1];
         [ModalZoomView fadeOutViewAnimated:YES];
     }else{
         [self disableButtons];
 
         [[PutIOClient sharedClient] requestDeletionForDisplayItem:_item :^(id userInfoObject) {
-            [ARAnalytics incrementUserProperty:@"User Deleted RemoteFile" byInt:1];
+           //[ARAnalytics incrementUserProperty:@"User Deleted RemoteFile" byInt:1];
             [ModalZoomView fadeOutViewAnimated:YES];
 
             if ([_item isKindOfClass:[PKFolder class]]) {

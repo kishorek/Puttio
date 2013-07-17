@@ -20,7 +20,7 @@
     #import "UIDevice+deviceInfo.h"
     #import "UIFont+Puttio.h"
 
-    #import "ARAnalytics.h"
+//    #import "ARAnalytics.h"
     #import "PutioKit.h"
 
     // models

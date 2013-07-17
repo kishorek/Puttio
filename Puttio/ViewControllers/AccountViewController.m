@@ -77,8 +77,8 @@
     [defaults synchronize];
     
     if ( oldCCValue != !commonsSwitch.on ) {
-        [ARAnalytics incrementUserProperty:@"User Switched CreativeCommons Setting" byInt:1];
-        [ARAnalytics event:@"Switched CC Setting"];
+       //[ARAnalytics incrementUserProperty:@"User Switched CreativeCommons Setting" byInt:1];
+       //[ARAnalytics event:@"Switched CC Setting"];
     }
 
     [self setCopyrightText];

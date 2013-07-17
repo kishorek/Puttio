@@ -298,8 +298,8 @@
 
 - (void)airplayActiveDidChange {
     if ( [self.moviePlayer isAirPlayVideoActive] ) {
-        [ARAnalytics event:@"Using Airplay"];
-        [ARAnalytics incrementUserProperty:@"Using Airplay" byInt:1];
+       //[ARAnalytics event:@"Using Airplay"];
+       //[ARAnalytics incrementUserProperty:@"Using Airplay" byInt:1];
     }
 }
 
